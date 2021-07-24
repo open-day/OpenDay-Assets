@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/style.sass:dist/style.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/open-day/OpenDay-Assets/issues"
   },
-  "homepage": "https://github.com/open-day/OpenDay-Assets#readme"
+  "homepage": "https://github.com/open-day/OpenDay-Assets#readme",
+  "dependencies": {
+    "sass": "^1.35.2"
+  }
 }
